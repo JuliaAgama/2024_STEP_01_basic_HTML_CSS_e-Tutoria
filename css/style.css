@@ -538,6 +538,7 @@
 }
 
 .contact__content {
+  max-width: 585px;
   background-color: #DBF3ED;
   border-radius: 24px;
   padding: 30px;
@@ -561,7 +562,6 @@
 }
 
 .contact__form {
-  max-width: 585px;
   display: flex;
   flex-direction: column;
   gap: 24px;
