@@ -625,9 +625,26 @@
 .icon__link {
   width: 32px;
   height: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
+
+.icon__link.--01 {
+  background-image: url("../img/icons/instagram-icon.svg");
+}
+
+.icon__link.--02 {
+  background-image: url("../img/icons/facebook-icon.svg");
+}
+
+.icon__link.--03 {
+  background-image: url("../img/icons/linkedin-icon.svg");
+}
+
+
 
 
